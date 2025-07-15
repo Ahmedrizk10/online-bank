@@ -534,9 +534,17 @@ body {
   display: block;
   max-width: 100%;
 }
-
+.main-hr{
+  display: none;
+} 
 /* === Responsive Design === */
 @media (max-width: 768px) {
+  .main-hr{
+    display: block;
+  }
+  .home-icon1{
+    display: none;
+  }
   .home {
     padding: 60px 0;
     text-align: center;
